@@ -58,8 +58,8 @@ namespace KnowledgeCheck1_Calculator
 
                     if (double.TryParse(multiplyNumber1, out double multNumOne) && double.TryParse(multiplyNumber2, out double multNumTwo))
                     {
-                        Console.Write($"{multiplyNumber1} / {multiplyNumber2} = ");
-                        Console.Write(calculator.Divide(multNumOne, multNumTwo));
+                        Console.Write($"{multiplyNumber1} * {multiplyNumber2} = ");
+                        Console.Write(calculator.Multiply(multNumOne, multNumTwo));
                     }
                     else
                     {
